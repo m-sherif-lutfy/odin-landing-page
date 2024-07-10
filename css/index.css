@@ -79,3 +79,49 @@ body {
     .about img {
         height: 60%;
     }
+
+    .info {
+        display: flex;
+        height: fit-content;
+        flex-direction: column;
+        margin-bottom: 130px;
+    }
+
+    .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 36px;
+        font-weight: bolder;
+    }
+
+    .cards {
+        display: flex;
+        height: fit-content;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 160px;
+        height: fit-content;
+    }
+
+    .card img {
+        width: 150px;
+        height: 150px;
+        border: 15px;
+        border-radius: 10px;
+        border-color: #3882f6;
+    }
+
+    .card p {
+        font-size: 18px;
+        color: #1f2937;
+    }
