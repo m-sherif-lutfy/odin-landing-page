@@ -121,7 +121,26 @@ body {
         border-color: #3882f6;
     }
 
-    .card p {
+    .card p,
+    .quote p {
         font-size: 18px;
         color: #1f2937;
+    }
+
+    .quote {
+        display: flex;
+        flex-direction: column;
+        background-color: #e5e7eb;
+        padding: 50px 250px;
+    }
+
+    h3 {
+        font-size: 36px;
+        font-style: italic;
+        color: #1f2937;
+        text-align: center;
+    }
+
+    .quote p {
+        text-align: end;
     }
