@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding: 10px 120px 100px;
+}
+
+    .header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 75px;
+    }
+
+    .logo {
+        font-size: 24px;
+        color: #f9faf8;
+    }
+
+    .links {
+        display: flex;
+        margin-left: auto;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 18px;
+        color: #e5e7eb;
+    }
+
+    .about {
+        display: flex;
+        gap: 20px;
+    }
+
+    .signup {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    h1 {
+        font-size: 48px;
+        font-weight: bolder;
+        color: #f9faf8;
+        margin: 0;
+    }
+
+    p {
+        font-size: 18px;
+        color: #e5e7eb;
+    }
+
+    button {
+        width: 100px;
+        height: 45px;
+        background-color: #3882f6;
+        color: #f9faf8;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .img {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .about img {
+        height: 60%;
+    }
