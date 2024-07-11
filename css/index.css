@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .hero {
@@ -49,6 +50,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        flex: 1;
     }
 
     h1 {
@@ -79,7 +81,9 @@ body {
     }
 
     .about img {
-        height: 60%;
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
     }
 
     .info {
@@ -87,12 +91,14 @@ body {
         height: fit-content;
         flex-direction: column;
         margin-bottom: 130px;
+        flex: 1;
     }
 
     .text {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex: 1;
     }
 
     h2 {
@@ -142,6 +148,7 @@ body {
         font-style: italic;
         color: #1f2937;
         text-align: center;
+        max-height: auto;
     }
 
     .quote p {
@@ -195,4 +202,17 @@ body {
         border-style: solid;
         border-width: 2px;
         font-weight: bold;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1f2937;
+        padding: 10px 0;
+    }
+
+    .footer p {
+        font-size: 18px;
+        color: #e5e7eb;
     }
